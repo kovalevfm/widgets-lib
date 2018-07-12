@@ -1,0 +1,25 @@
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IntelliJ
+.idea/
+*.iml
+
+# OSX
+.DS_Store
+
+# Files created after running build.sh
+apps/*/build/
+apps/*/build.json
+
+# Tensorflow checkpoints
+*.ckpt
+*.ckpt?*
+*.index
+checkpoint
+
+# sublime
+*.sublime-workspace
+
